@@ -10,7 +10,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Demanar la ruta del directori que es vol llistar
         System.out.println("Enter the path of the directory you want to list recursively:");
         String path = scanner.nextLine();
 
@@ -63,4 +62,5 @@ public class Main {
             }
         }
     }
+
 }
