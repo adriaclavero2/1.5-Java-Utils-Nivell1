@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.Scanner;
 
 class Person implements Serializable {
-    private static final long serialVersionUID = 1L; // ID per compatibilitat
+    private static final long serialVersionUID = 1L;
     private String name;
     private int age;
 
@@ -48,4 +48,5 @@ public class Main {
 
         scanner.close();
     }
+
 }
